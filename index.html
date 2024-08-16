@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="/imgs/ajlogo2_img.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Mono+One&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Rubik+Doodle+Shadow&family=Rubik+Mono+One&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <img src="/imgs/ajlogo2_img.png" alt="">
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="">Home <span></span></a></li>
+            <li><a href="#about">About <span></span></a></li>
+            <li><a href="#skills">Skills <span></span></a></li>
+            <li><a href="#projects">Projects <span></span></a></li>
+            <li><a href="#achievements">Achievements <span></span></a></li>
+            <li><a href="#contact">Contact <span></span></a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <article>
+            <span id="text1">Hi, I'm</span>
+            <span id="text2">Aviral Jain</span>
+        </article>
+        <img src="/imgs/coder2_ img.png" alt="">
+    </section>
+
+    <section id="about" onmouseover="func(this)" onmouseout="func2(this)">
+        <h2 >About me</h2>
+        <p >I am a student at VIT BHOPAL university <br>
+           Persuing BTech
+           <br>Currently, a 3rd year Student
+           <br>Completed 10th from KV Barkuhi
+           <br>Completed 12th from SGIS Bangalore
+        </p>
+    </section>
+
+    <section id="skills" onmouseover="func(this)" onmouseout="func2(this)">
+        <h2>Skills</h2>
+        <div id="imgBox" class="container">
+            <img src="/imgs/html5.png" alt="">
+            <img src="/imgs/logo-css-3-2048.png" alt="">
+            <img src="/imgs/logo-javascript.png" alt="">
+            <img src="/imgs/php_PNG43.png" alt="">
+            <img src="/imgs/MySQL.jpg" alt="">
+            <img src="/imgs/Python.png" alt="">
+            <img src="/imgs/Django.png" alt="">
+            <img src="/imgs/flask.png" alt="">
+            <img src="/imgs/cpp-logo-clipart-1.png" alt="">
+            <img src="/imgs/javaimg.png" alt="">
+            <img src="/imgs/hackerrank.jpg" alt="">
+            <img src="/imgs/leetcode.jpg" alt="">
+            <img src="/imgs/github-icon.png" alt="">
+        </div>
+    </section>
+
+    <section id="projects" onmouseover="func(this)" onmouseout="func2(this)">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="card" onmouseover="func3(this)" onmouseout="func4(this)">
+                <h3>Medibot</h3>
+                <img src="/imgs/medibot.png" alt="">
+                <p>
+                    Integrating multiple features into a single user friendly platform. Techs used are <strong>Web dev, Flask, Machine Learning.</strong>
+                </p>
+            </div>
+
+            <div class="card" onmouseover="func3(this)" onmouseout="func4(this)">
+                <h3>Stock market prediction</h3>
+                <img src="/imgs/stock-market-crash.jpg" alt="">
+                <p>
+                    A web service for stock market prediction. Tech used are <strong>Web dev, Django, ML(LSTM algo).</strong>
+                </p>
+            </div>
+
+            <div class="card" onmouseover="func3(this)" onmouseout="func4(this)">
+                <h3>AR library</h3>
+                <img src="/imgs/libimg.jpg" alt="">
+                <p>
+                    A augmented reality virtual system for library. Tech used are <strong>Web dev, AR.js, Three</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" onmouseover="func(this)" onmouseout="func2(this)">
+        <h2 >Achievements</h2>
+        <ul >
+            <li>Participated in GFG (geek for geeks) contests</li>
+            <li>Top 1% in NPTEL cloud computing</li>
+            <li>Solved 200+ leetcode questions (DSA with JAVA)</li>
+            <li>Final round at project Expo in Industry Conclave 1, VIT Bhopal</li>
+            <li>Member of Stats-O-Locked club</li>
+            <li>Certificates: </li>
+        </ul>
+        <div id="certBox">
+            <img src="/imgs/expo_certi.jpg" alt="">
+            <img src="/imgs/nptel_certi.jpg" alt="">
+            <img src="/imgs/google_certi.jpg" alt="">
+            <img src="imgs/vit_certi.jpg" alt="">
+            <img src="/imgs/kaggle_certi2.jpg" alt="">
+            <img src="/imgs/leet_achi.png" alt="">
+            <img src="/imgs/member.jpg" alt="">
+            <img src="/imgs/kaggle_certi3.jpg" alt="">
+            <img src="/imgs/kaggle_certi.jpg" alt="">
+            <img src="/imgs/100 days leetcode.png" alt="">
+        </div>
+    </section>
+
+    <section id="contact" onmouseover="func(this)" onmouseout="func2(this)">
+        <h2>Contact me</h2>
+        <div class="container">
+            <a href="mailto:jainaviral2004@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a target="_blank" href="https://github.com/Aviral-Jain-2004"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aviral-jain-549465251"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="tel:+919131284281"><i class="fa-duotone fa-solid fa-phone"></i></a>
+            <a target="_blank" href="https://www.hackerrank.com/profile/aviraljain2022"><i class="fa-brands fa-hackerrank"></i></a>
+            <a target="_blank" href="https://leetcode.com/Aviral_Jain_2004"><span><img src="/imgs/logo.png" alt=""></span></a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024. Portfolio by Aviral Jain.
+    </footer>
+</body>
+</html>
